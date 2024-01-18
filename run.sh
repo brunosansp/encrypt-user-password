@@ -27,7 +27,7 @@ services:
 docker-compose up -d
 
 # A URI http://localhost:5050 irá abrir o pgAdmin, use as credenciais definidas no docker-compose.yml
-# No pgAdmin, vá para Servers > Add New Server. Preencha os detalhes do servidor PostgreSQL usando as informações do serviço PostgreSQL no arquivo docker-compose.yml.
+# No pgAdmin, vá para Servers > Add New Server > Aba Connection. Preencha os detalhes do servidor PostgreSQL usando as informações do serviço PostgreSQL no arquivo docker-compose.yml.
 
 # Host name/address: postgres
 # Port: 5432
